@@ -1,0 +1,48 @@
+.box{
+	margin: 40px;
+	width: 200px;
+	height: 200px;
+	font-size: 25px;
+}
+.box1{
+	border-radius: 55px 0px 55px 0px;
+	-moz-border-radius: 55px 0px 55px 0px;
+	-webkit-border-radius: 55px 0px 55px 0px;
+	border: 0px solid #000000;
+	-webkit-box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.68);
+	-moz-box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.68);
+	box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.68);
+	background-color: silver;
+}
+.box2{
+	border-radius: 0px 57px 0px 57px;
+	-moz-border-radius: 0px 57px 0px 57px;
+	-webkit-border-radius: 0px 57px 0px 57px;
+	border: 0px solid #000000;
+	-webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	-moz-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	background: rgba(242,246,248,1);
+	background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(224,232,236,1) 11%, rgba(216,225,231,1) 16%, rgba(181,198,208,1) 58%, rgba(181,198,208,1) 92%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,246,248,1)), color-stop(11%, rgba(224,232,236,1)), color-stop(16%, rgba(216,225,231,1)), color-stop(58%, rgba(181,198,208,1)), color-stop(92%, rgba(181,198,208,1)));
+	background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(224,232,236,1) 11%, rgba(216,225,231,1) 16%, rgba(181,198,208,1) 58%, rgba(181,198,208,1) 92%);
+	background: -o-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(224,232,236,1) 11%, rgba(216,225,231,1) 16%, rgba(181,198,208,1) 58%, rgba(181,198,208,1) 92%);
+	background: -ms-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(224,232,236,1) 11%, rgba(216,225,231,1) 16%, rgba(181,198,208,1) 58%, rgba(181,198,208,1) 92%);
+	background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(224,232,236,1) 11%, rgba(216,225,231,1) 16%, rgba(181,198,208,1) 58%, rgba(181,198,208,1) 92%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#b5c6d0', GradientType=1 );
+}
+.box3{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.box4{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.box5{
+	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.box6{
+	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;	
+}
+.box7{
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
